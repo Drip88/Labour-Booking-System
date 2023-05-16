@@ -1,0 +1,47 @@
+/* change brand name font */ 
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* change nav colour */ 
+.navbar #myamenu .custom-nav .nav-item a {
+    color: #fff;
+}
+
+.navbar #myMenu .custom-nav .nav-item a:hover {
+    color: #3eda18;
+
+}
+
+.back-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    margin-top: 74px;
+
+}
+
+.mainHeading {
+    margin-top: 50px;
+}
+
+
+.fi-color {
+    color:#3c763d
+}
+
+.fi-color:hover {
+    color:mediumseagreen
+}
+
+
+
+@media only screen and (max-width:600px) {
+.myClass{
+  margin-top: 350px;
+  text-align: center;
+}
+}
